@@ -1,9 +1,27 @@
-# Vue 3 + TypeScript + Vite
+![PHP Revival Banner](https://raw.githubusercontent.com/php-revival/php-revival/main/art/php-revival-promo-big.png)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a landing page for the [PHP Revival](https://github.com/php-revival/php-revival) browser extension.
 
-## Recommended Setup
+## Project setup with Vite
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+### Clone the repository
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+```bash
+git clone https://github.com/php-revival/php-revival.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+### Start the development server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
