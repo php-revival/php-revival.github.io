@@ -5,9 +5,15 @@ const config: Config = {
         "./index.html",
         "./src/**/*.{js,ts,vue}",
     ],
+
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                main: ['MainFont', 'sans-serif'],
+            },
+        },
     },
+
     plugins: [],
 }
 
