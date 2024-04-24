@@ -1,8 +1,10 @@
 {
   "name": "php-revival.github.io",
   "description": "Landing page for PHP Revival browser extension",
-  "private": true,
   "version": "1.0.0",
+  "private": false,
+  "repository": "https://github.com/php-revival/php-revival.github.io",
+  "homepage": "https://php-revival.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
