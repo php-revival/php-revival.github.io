@@ -2,36 +2,39 @@
 import { computed, ref } from 'vue'
 import { BrowserType } from '@/types'
 import getUserBrowser from '@/modules/getUserBrowser'
-import braveIcon from '@/assets/browsers/brave.svg'
-import chromeIcon from '@/assets/browsers/chrome.svg'
-import edgeIcon from '@/assets/browsers/edge.svg'
-import firefoxIcon from '@/assets/browsers/firefox.svg'
+import browsers from '@/modules/browsers'
 
 const browser = ref<BrowserType | null>(getUserBrowser())
 
-const allIcons: string[] = [
-    chromeIcon,
-    firefoxIcon,
-    braveIcon,
-    edgeIcon,
-]
-
-const browserIcon = computed<string>(() => {
+const icon = computed<string>(() => {
     switch (browser.value) {
         case BrowserType.Brave:
-            return braveIcon
+            return browsers.brave.icon
         case BrowserType.Chrome:
-            return chromeIcon
+            return browsers.chrome.icon
         case BrowserType.Edge:
-            return edgeIcon
+            return browsers.edge.icon
         case BrowserType.Firefox:
-            return firefoxIcon
+            return browsers.firefox.icon
         default:
             return ''
-        }
+    }
 })
 
-const href = 'https://chromewebstore.google.com/detail/php-revival/fceclmihdanbepiogjoeiolnpkalcjpe'
+const href = computed<string>(() => {
+    switch (browser.value) {
+        case BrowserType.Brave:
+            return browsers.brave.url
+        case BrowserType.Chrome:
+            return browsers.chrome.url
+        case BrowserType.Edge:
+            return browsers.edge.url
+        case BrowserType.Firefox:
+            return browsers.firefox.url
+        default:
+            return ''
+    }
+})
 </script>
 
 <template>
@@ -41,19 +44,16 @@ const href = 'https://chromewebstore.google.com/detail/php-revival/fceclmihdanbe
             class="bg-main inline-block hover:bg-main-hover text-xl text-gray-300 mt-8 px-10 py-4 rounded-full transition-colors shadow-xl"
         >
             <span v-if="browser" class="flex items-center gap-3">
-                <img
-                    :src="browserIcon"
-                    width="27"
-                    height="27"
-                >
+                <img :src="icon" width="27" height="27">
 
                 Add to {{ browser }}
             </span>
 
             <span v-else class="flex items-center gap-3">
-                Works with <img
-                    v-for="icon in allIcons"
-                    :key="icon"
+                Works with
+                <img
+                    v-for="browser in browsers"
+                    :key="browser.icon"
                     :src="icon"
                     width="20"
                     height="20"
