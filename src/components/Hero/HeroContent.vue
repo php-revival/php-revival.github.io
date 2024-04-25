@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import InstallButton from '@/components/Hero/InstallButton.vue'
 </script>
 
 <template>
@@ -13,5 +13,7 @@
                 <a href="https://php.net" class="underline" target="_blank">www.php.net</a>
             </p>
         </div>
+
+        <InstallButton />
     </div>
 </template>

@@ -16,6 +16,10 @@ const config: Config = {
             fontFamily: {
                 main: ['MainFont', 'sans-serif'],
             },
+            colors: {
+                main: '#355c7d',
+                'main-hover': '#2c4d6a',
+            }
         },
     },
 
