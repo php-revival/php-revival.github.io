@@ -7,6 +7,7 @@ import browsers from '@/modules/browsers'
     <AppSection
         heading="Try it now - Free"
         subheading="PHP Revival extension is available for free on Chrome, Firefox, Brave and Edge"
+        class="pt-32 pb-12"
     >
         <div class="flex items-center justify-center gap-16">
             <a
@@ -14,6 +15,7 @@ import browsers from '@/modules/browsers'
                 :key="browser.icon"
                 :href="browser.url"
                 target="_blank"
+                class="transition-transform hover:scale-125 duration-300"
             >
                 <img
                     :src="browser.icon"
