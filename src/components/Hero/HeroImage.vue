@@ -1,13 +1,16 @@
 <script setup lang="ts">
+import Parallaxy from '@lucien144/vue3-parallaxy'
 </script>
 
 <template>
-    <img
-        src="@/assets/example.png"
-        width="1100"
-        height="577"
-        class="mx-auto mt-28 rounded-xl _hero-image"
-    />
+    <Parallaxy :speed="70" direction="normal">
+        <img
+            src="@/assets/example.png"
+            width="1100"
+            height="577"
+            class="mx-auto mt-36 rounded-xl _hero-image"
+        />
+    </Parallaxy>
 </template>
 
 <style scoped>

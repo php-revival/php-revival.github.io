@@ -13,6 +13,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "@lucien144/vue3-parallaxy": "^0.1.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {
