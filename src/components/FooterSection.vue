@@ -3,8 +3,8 @@ import AppSection from '@/components/AppSection.vue'
 </script>
 
 <template>
-    <AppSection class="pb-14">
-        <footer class="text-gray-300 text-lg">
+    <AppSection class="pb-8 md:pb-14">
+        <footer class="text-gray-300 text-sm md:text-md lg:text-lg">
             &copy; {{ new Date().getFullYear() }} Serhii Chornenkyi.
 
             <a

@@ -8,9 +8,9 @@ import Feature from '@/components/Feature.vue'
     <AppSection
         heading="Experience Comprehensive Features"
         subheading="Revive the PHP documentation experience with PHP Revival"
-        class="pt-28 pb-10"
+        class="pt-12 md:pt-16 lg:pt-28 pb-10"
     >
-        <div class="grid grid-cols-3 gap-20 px-5">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-20 px-5">
             <Feature
                 v-for="feature in features"
                 :key="feature.name"

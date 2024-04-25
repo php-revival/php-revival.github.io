@@ -41,7 +41,7 @@ const href = computed<string>(() => {
     <div>
         <a
             :href="href"
-            class="bg-main inline-block hover:bg-main-hover text-xl text-gray-300 mt-8 px-10 py-4 rounded-full transition-colors shadow-xl"
+            class="bg-main inline-block hover:bg-main-hover text-lg md:text-xl text-gray-300 mt-5 md:mt-8 px-8 md:px-10 py-3 md:py-4 rounded-full transition-colors shadow-xl"
         >
             <span v-if="browser" class="flex items-center gap-3">
                 <img :src="icon" width="27" height="27">

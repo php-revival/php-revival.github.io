@@ -7,9 +7,9 @@ import browsers from '@/modules/browsers'
     <AppSection
         heading="Try it now - Free"
         subheading="PHP Revival extension is available for free on Chrome, Firefox, Brave and Edge"
-        class="pt-32 pb-12"
+        class="pt-6 md:pt-14 lg:pt-32 pb-4 md:pb-8 lg:pb-12"
     >
-        <div class="flex items-center justify-center gap-16">
+        <div class="flex items-center justify-center gap-6 md:gap-12 lg:gap-16">
             <a
                 v-for="browser in browsers"
                 :key="browser.icon"
@@ -21,6 +21,7 @@ import browsers from '@/modules/browsers'
                     :src="browser.icon"
                     width="100"
                     height="100"
+                    class="w-[50px] md:w-[75px] lg:w-[100px]"
                 >
             </a>
         </div>

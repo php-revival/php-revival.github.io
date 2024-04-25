@@ -11,6 +11,7 @@ import Link from '@/components/Navbar/Link.vue'
                     width="190"
                     height="50"
                     alt="PHP Revival extension logo"
+                    class="w-[100px] md:w-[140px] lg:w-[190px]"
                 />
 
                 <ul>
