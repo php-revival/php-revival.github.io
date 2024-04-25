@@ -1,15 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const shadow = ref<number[]>([0, -20, 60])
 </script>
 
 <template>
     <img
-        src="@/assets/example.webp"
+        src="@/assets/example.png"
         width="1100"
         height="577"
-        class="mx-auto mt-28 _hero-image"
+        class="mx-auto mt-28 rounded-xl _hero-image"
     />
 </template>
 

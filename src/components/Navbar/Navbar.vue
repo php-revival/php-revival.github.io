@@ -3,13 +3,14 @@ import Link from '@/components/Navbar/Link.vue'
 </script>
 
 <template>
-    <nav class="pt-4">
+    <nav class="pt-5 px-2">
         <div class="container">
             <div class="flex justify-between items-center">
                 <img
                     src="@/assets/nav-logo.webp"
-                    width="200"
-                    height="64"
+                    width="190"
+                    height="50"
+                    alt="PHP Revival extension logo"
                 />
 
                 <ul>
