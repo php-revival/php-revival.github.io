@@ -13,10 +13,12 @@ import Link from '@/components/Navbar/Link.vue'
                 />
 
                 <ul>
-                    <Link
-                        text="Contact"
-                        href="mailto:serhiicho@protonmail.com"
-                    />
+                    <li>
+                        <Link
+                            href="mailto:serhiicho@protonmail.com"
+                            text="Contact"
+                        />
+                    </li>
                 </ul>
             </div>
         </div>
