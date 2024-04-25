@@ -54,7 +54,7 @@ const href = computed<string>(() => {
                 <img
                     v-for="browser in browsers"
                     :key="browser.icon"
-                    :src="icon"
+                    :src="browser.icon"
                     width="20"
                     height="20"
                 >
