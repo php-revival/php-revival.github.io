@@ -13,7 +13,7 @@ const { heading, subheading } = defineProps<Props>()
             <h2 v-if="heading" class="text-5xl font-bold">{{ heading }}</h2>
             <p v-if="subheading" class="text-gray-400 mt-6 text-2xl">{{ subheading }}</p>
 
-            <div class="mt-14">
+            <div class="mt-20">
                 <slot />
             </div>
         </div>

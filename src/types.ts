@@ -4,3 +4,9 @@ export enum BrowserType {
     Firefox = 'Firefox',
     Edge = 'Edge',
 }
+
+export type Feature = {
+    name: string
+    description: string
+    icon: string
+}
