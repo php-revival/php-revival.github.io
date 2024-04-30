@@ -10,3 +10,12 @@ export type Feature = {
     description: string
     icon: string
 }
+
+export type Review = {
+    avatar: string
+    name: string
+    rating: number
+    source: 'chrome' | 'mozilla'
+    content?: string
+    note?: string
+}
