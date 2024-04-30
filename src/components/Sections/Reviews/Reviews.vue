@@ -10,11 +10,11 @@ import reviews from '@/modules/reviews'
         subheading="Here are some nice things our users have said about PHP Revival"
         class="pt-6 md:pt-10 lg:pt-24 pb-5 md:pb-5 lg:pb-2"
     >
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div
                 v-for="(reviewColumn, i) in reviews"
                 :key="i"
-                class="flex flex-col gap-4"
+                class="flex flex-col gap-6"
             >
                 <Review
                     v-for="review in reviewColumn"
