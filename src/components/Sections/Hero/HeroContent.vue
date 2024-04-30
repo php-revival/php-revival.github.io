@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import InstallButton from '@/components/Hero/InstallButton.vue'
+import InstallButton from '@/components/Sections/Hero/InstallButton.vue'
 </script>
 
 <template>

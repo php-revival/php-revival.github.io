@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HeroContent from '@/components/Hero/HeroContent.vue'
-import HeroImage from '@/components/Hero/HeroImage.vue'
+import HeroContent from '@/components/Sections/Hero/HeroContent.vue'
+import HeroImage from '@/components/Sections/Hero/HeroImage.vue'
 </script>
 
 <template>

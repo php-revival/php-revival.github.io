@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import AppSection from '@/components/AppSection.vue'
+import Section from '@/components/Section.vue'
 import browsers from '@/modules/browsers'
 </script>
 
 <template>
-    <AppSection
+    <Section
         heading="Try it now - Free"
         subheading="PHP Revival extension is available for free on Chrome, Firefox, Brave and Edge"
         class="pt-6 md:pt-14 lg:pt-32 pb-4 md:pb-8 lg:pb-12"
@@ -25,5 +25,5 @@ import browsers from '@/modules/browsers'
                 >
             </a>
         </div>
-    </AppSection>
+    </Section>
 </template>

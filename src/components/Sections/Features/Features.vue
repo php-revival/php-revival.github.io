@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import AppSection from '@/components/AppSection.vue'
+import Section from '@/components/Section.vue'
 import features from '@/modules/features'
-import Feature from '@/components/Feature.vue'
+import Feature from '@/components/Sections/Features/Feature.vue'
 </script>
 
 <template>
-    <AppSection
+    <Section
         heading="Experience Comprehensive Features"
         subheading="Revive the PHP documentation experience with PHP Revival"
         class="pt-12 md:pt-16 lg:pt-28 pb-10"
@@ -17,5 +17,5 @@ import Feature from '@/components/Feature.vue'
                 :feature="feature"
             />
         </div>
-    </AppSection>
+    </Section>
 </template>

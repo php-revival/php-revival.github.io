@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import AppSection from '@/components/AppSection.vue'
+import Section from '@/components/Section.vue'
 </script>
 
 <template>
-    <AppSection class="pb-8 md:pb-14">
+    <Section class="pb-8 md:pb-14">
         <footer class="text-gray-300 text-sm md:text-md lg:text-lg">
             &copy; {{ new Date().getFullYear() }} Serhii Chornenkyi.
 
@@ -15,5 +15,5 @@ import AppSection from '@/components/AppSection.vue'
                 MIT License
             </a>
         </footer>
-    </AppSection>
+    </Section>
 </template>
