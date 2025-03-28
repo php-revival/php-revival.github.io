@@ -1,4 +1,4 @@
-![PHP Revival Banner](https://raw.githubusercontent.com/php-revival/php-revival/main/art/php-revival-promo-big.png)
+![PHP Revival Banner](https://raw.githubusercontent.com/php-revival/php-revival/master/art/php-revival-promo-big.png)
 
 This is a landing page for the [PHP Revival](https://github.com/php-revival/php-revival) browser extension.
 
