@@ -1,5 +1,11 @@
 /// <reference types="vite/client" />
 
+declare module '*.vue' {
+    import type { DefineComponent } from 'vue'
+    const component: DefineComponent<{}, {}, any>
+    export default component
+}
+
 declare module '@lucien144/vue3-parallaxy' {
     import type { Prop, DefineComponent } from 'vue'
 
