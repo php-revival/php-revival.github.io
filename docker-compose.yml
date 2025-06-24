@@ -1,0 +1,13 @@
+name: php-revival-landing
+
+services:
+    app:
+        image: php-revival-landing
+        container_name: php-revival-landing
+        build:
+            context: .
+        volumes:
+            - .:/app
+            - /app/node_modules
+        ports:
+            - 3000:3000
