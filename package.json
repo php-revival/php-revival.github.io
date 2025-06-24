@@ -1,28 +1,28 @@
 {
-  "name": "php-revival.github.io",
-  "description": "Landing page for PHP Revival browser extension",
-  "private": false,
-  "repository": "https://github.com/php-revival/php-revival.github.io",
-  "homepage": "https://php-revival.github.io/",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
-  },
-  "dependencies": {
-    "@lucien144/vue3-parallaxy": "^0.1.2",
-    "vue": "^3.4.21"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
-  }
+    "name": "php-revival.github.io",
+    "description": "Landing page for PHP Revival browser extension",
+    "license": "MIT",
+    "private": false,
+    "repository": "https://github.com/php-revival/php-revival.github.io",
+    "homepage": "https://php-revival.github.io/",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host",
+        "check": "vue-tsc",
+        "build": "vue-tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@lucien144/vue3-parallaxy": "^0.1.2",
+        "vue": "^3.5.17"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.3",
+        "typescript": "^5.2.2",
+        "vite": "^5.2.0",
+        "vue-tsc": "^2.0.6"
+    }
 }
