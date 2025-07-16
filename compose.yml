@@ -6,8 +6,9 @@ services:
         container_name: php-revival-landing
         build:
             context: .
+            dockerfile: Composefile
         volumes:
-            - .:/app
+            - .:/app:z
             - /app/node_modules
         ports:
             - 3000:3000
