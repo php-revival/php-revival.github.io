@@ -6,7 +6,7 @@ services:
         container_name: php-revival-landing
         build:
             context: .
-            dockerfile: Composefile
+            dockerfile: Containerfile
         volumes:
             - .:/app:z
         ports:
