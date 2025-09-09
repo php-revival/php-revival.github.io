@@ -5,6 +5,7 @@ import jPostAvatar from '@/assets/reviews-avatars/J Post.jpeg'
 import olexiyChornenkiyAvatar from '@/assets/reviews-avatars/Olexiy Chornenkiy.jpeg'
 import alexLabaninoAvatar from '@/assets/reviews-avatars/Alex Labanino.png'
 import oleksiiAnatoliyovichAvatar from '@/assets/reviews-avatars/Oleksii Anatoliyovich.png'
+import defaultAvatar from '@/assets/reviews-avatars/default.svg'
 
 const reviews: Review[][] = [
     [
@@ -48,6 +49,11 @@ const reviews: Review[][] = [
             name: 'J Post',
             content:
                 'This works great, really improves the documentation by being able to run all the examples. Thank you!',
+        },
+        {
+            avatar: defaultAvatar,
+            name: 'Just a Guy',
+            content: 'Wow! Must have for PHP devs. For sure',
         },
     ],
 ]
