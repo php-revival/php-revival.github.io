@@ -23,12 +23,21 @@ Navigate to `http://localhost:3000` to see your documentation.
 
 #### Build an Image
 To build an image, navigate to the root of the project and run this command:
+
 ```bash
 podman-compose build
 ```
 
+#### Create `node_modules`
+Run this command to install npm packages and generate a `node_modules` directory on your local machine:
+
+```bash
+podman-compose run --rm app npm i
+```
+
 #### Run the Container
 To run a container, navigate to the root of the project and run this command:
+
 ```bash
 podman-compose up -d
 ```
@@ -44,6 +53,7 @@ You'll be able to run NPM commands inside of the container.
 
 #### Remove and Stop the Container
 To stop and remove the container, run this command:
+
 ```bash
 podman-compose down
 ```
