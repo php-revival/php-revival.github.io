@@ -5,3 +5,13 @@
     src: url('./assets/MainFont.woff2') format('woff2');
 }
 
+@utility container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+@theme {
+    --font-display: "MainFont", "sans-serif";
+    --color-main: #355c7d;
+    --color-main-hover: #2c4d6a;
+}
