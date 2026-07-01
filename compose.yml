@@ -6,6 +6,6 @@ services:
         container_name: php-revival-landing
         build: .
         volumes:
-            - .:/app:z
+            - .:/var/www/html:z
         ports:
             - 3000:3000
