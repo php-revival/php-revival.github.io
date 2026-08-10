@@ -1,6 +1,6 @@
-![PHP Revival Banner](https://raw.githubusercontent.com/php-revival/php-revival/refs/heads/master/src/art/php-revival-promo-big.png)
+![PHP Revival Banner](src/branch/master/src/assets/nav-logo.webp)
 
-This is a landing page for the [PHP Revival](https://github.com/php-revival/php-revival) browser extension.
+This is a landing page for the [PHP Revival](https://codeberg.org/php-revival/php-revival) browser extension.
 
 ## Development
 

@@ -8,7 +8,7 @@ import Section from '@/components/Section.vue'
             &copy; {{ new Date().getFullYear() }} Serhii Cho.
 
             <a
-                href="https://github.com/php-revival/php-revival/blob/master/LICENSE"
+                href="https://codeberg.org/php-revival/php-revival/src/branch/master/LICENSE"
                 target="_blank"
                 class="underline"
             >
