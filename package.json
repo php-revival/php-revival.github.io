@@ -1,10 +1,10 @@
 {
-    "name": "php-revival.codeberg.page",
+    "name": "php-revival.serhiicho.com",
     "description": "Landing page for PHP Revival browser extension",
     "license": "MIT",
     "private": false,
     "repository": "https://codeberg.org/php-revival/pages",
-    "homepage": "https://php-revival.codeberg.page/",
+    "homepage": "https://php-revival.serhiicho.com",
     "type": "module",
     "scripts": {
         "dev": "vite --host",
