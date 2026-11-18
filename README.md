@@ -1,4 +1,4 @@
-![PHP Revival Banner](src/branch/master/src/assets/nav-logo.webp)
+![PHP Revival Banner](blob/master/src/assets/favicon.png)
 
 This is a landing page for the [PHP Revival](https://github.com/php-revival/php-revival) browser extension.
 
