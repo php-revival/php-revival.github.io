@@ -3,7 +3,7 @@
     "description": "Landing page for PHP Revival browser extension",
     "license": "MIT",
     "private": false,
-    "repository": "https://codeberg.org/php-revival/pages",
+    "repository": "https://github.com/php-revival/pages",
     "homepage": "https://php-revival.serhiicho.com",
     "type": "module",
     "scripts": {
