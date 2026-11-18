@@ -1,5 +1,7 @@
 ![PHP Revival Banner](src/assets/nav-logo.webp)
 
+[![Build and Deploy](https://github.com/php-revival/php-revival.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/php-revival/php-revival.github.io/actions/workflows/gh-pages.yml)
+
 This is a landing page for the [PHP Revival](https://github.com/php-revival/php-revival) browser extension.
 
 ## Development
